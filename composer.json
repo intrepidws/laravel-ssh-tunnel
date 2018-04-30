@@ -14,7 +14,7 @@
         "classmap": [
         ],
         "psr-4": {
-            "STS\\Tunneler\\": "src"
+            "IntrepidWS\\Tunneler\\": "src"
         },
         "files": [
         ]
@@ -32,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "STS\\Tunneler\\TunnelerServiceProvider"
+                "IntrepidWS\\Tunneler\\TunnelerServiceProvider"
             ]
         }
     }
