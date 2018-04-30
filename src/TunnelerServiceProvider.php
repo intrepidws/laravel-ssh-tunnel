@@ -1,8 +1,8 @@
-<?php namespace	STS\Tunneler;
+<?php namespace	IntrepidWS\Tunneler;
 
 use Illuminate\Support\ServiceProvider;
-use STS\Tunneler\Console\TunnelerCommand;
-use STS\Tunneler\Jobs\CreateTunnel;
+use IntrepidWS\Tunneler\Console\TunnelerCommand;
+use IntrepidWS\Tunneler\Jobs\CreateTunnel;
 
 
 class TunnelerServiceProvider extends ServiceProvider{
