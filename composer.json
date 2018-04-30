@@ -1,5 +1,5 @@
 {
-    "name": "stechstudio/laravel-ssh-tunnel",
+    "name": "intrepidws/laravel-ssh-tunnel-fixed",
     "description": "Easy creation & maintenance of an SSH Tunnel for Laravel/Lumen",
     "type": "library",
     "license": "MIT",
