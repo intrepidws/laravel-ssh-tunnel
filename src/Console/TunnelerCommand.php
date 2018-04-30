@@ -1,7 +1,9 @@
-<?php namespace STS\Tunneler\Console;
+<?php
+
+namespace IntrepidWS\Tunneler\Console;
 
 use Illuminate\Console\Command;
-use STS\Tunneler\Jobs\CreateTunnel;
+use IntrepidWS\Tunneler\Jobs\CreateTunnel;
 
 class TunnelerCommand extends Command {
     /**
