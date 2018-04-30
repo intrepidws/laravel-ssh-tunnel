@@ -1,4 +1,6 @@
-<?php namespace STS\Tunneler\Jobs;
+<?php
+
+namespace IntrepidWS\Tunneler\Jobs;
 
 class CreateTunnel
 {
