@@ -12,14 +12,14 @@ We had a similar challenge, specifically accessing a MySQL database over an SSH 
 So we wrote this package. We hope you enjoy it!
 
 ## Requirements
-This package has been tested against Laravel/Lumen versions 5.2. 5.3, and 5.4.
+This package has been tested against Laravel/Lumen versions 5.2+
 
 We do not support version <=5.1.
 
 ## Installation
 
 ```
-composer require stechstudio/laravel-ssh-tunnel
+composer require intrepidws/laravel-ssh-tunnel-fixed
 ```
 
 ### Register the Provider:
@@ -27,12 +27,12 @@ composer require stechstudio/laravel-ssh-tunnel
 For Lumen services, add:
 
 ```php
-$app->register(STS\Tunneler\TunnelerServiceProvider::class);
+$app->register(IntrepidWS\Tunneler\TunnelerServiceProvider::class);
 ```
 to `bootstrap/app.php`. For Laravel applications, add:
 
 ```php
-STS\Tunneler\TunnelerServiceProvider::class,
+IntrepidWS\Tunneler\TunnelerServiceProvider::class,
 ```
 
 to the `providers` array in `config/app.php`.
